@@ -1,0 +1,32 @@
+{
+  "development": {
+    "username": "tecdemyuser",
+    "password": "TeChDemy7873!",
+    "database": "tecdemydb",
+    "host": "34.229.82.103",
+    "dialect": "mysql",
+    "define": {
+      "charset": "utf8",
+      "dialectOptions": {
+        "collate": "utf8_unicode_ci",
+        "useUTC": true,
+        "dateStrings": true
+      },
+      "timezone": "+05:30"
+    }
+  },
+  "test": {
+    "username": "tecdemyuser",
+    "password": "TeChDemy7873!",
+    "database": "tecdemydb",
+    "host": "34.229.82.103",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "tecdemyuser",
+    "password": "TeChDemy7873!",
+    "database": "tecdemydb",
+    "host": "34.229.82.103",
+    "dialect": "mysql"
+  }
+}
