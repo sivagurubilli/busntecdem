@@ -1,0 +1,14 @@
+{% extends "email/layout.nunjucks" %}
+{% block body %}
+   <p style="margin-bottom: 25px;">Hi {{userdata.name}},</p>
+   <div style="margin-bottom: 25px; text-align: left;"> 
+     
+    <p style="margin-bottom: 25px;">Thank you for registering.</p>
+    <p>After account verification, you can signin to your account using your email and password.</p>
+	<p>Your one time pin code : <b> {{token}} </b></p>
+    <p><a href="{{siteurl}}/otp-validation?token={{otptoken}}" style="text-decoration:underline">Click here to verify email</p></p>
+
+   </div>
+   <p style="margin-bottom: 5px;">Sincerely,</p>
+   <p style="margin-top: 0px;">The Team</p>
+{% endblock %}

@@ -1,0 +1,20 @@
+<table width="75%" border="0" cellspacing="3" cellpadding="3" align="center" style="font-size:14px;">
+  <tr>
+    <td><div style=" padding-bottom: 10px;border-bottom:solid 4px #3F48CC; text-align: center;">
+    <img src="{{baseUrl}}images/tecdemylogo.png" style="display: inline-block;  margin-left: auto; margin-right: auto;width:40%;" alt="Logo"  > 
+    
+    </div></td>
+  </tr>
+  <tr>
+    <td>
+      {% block body %}
+
+
+
+      {% endblock %}  
+    </td>
+  </tr>
+  <tr>
+    <td style="border-top:solid 4px #3F48CC; height:100px; vertical-align:middle;" align="center">&copy; 2023 Tecdemy. All rights Reserved.</td>
+  </tr>
+</table>
